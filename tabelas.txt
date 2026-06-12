@@ -1,0 +1,72 @@
+
+### matrixmult - Tempo de execucao (s)
+Tamanho |  1 (serial) |   2 threads |   4 threads
+    500 |      0.0507 |      0.0270 |      0.0234
+   1000 |      0.4500 |      0.2252 |      0.1759
+   2000 |      8.8401 |      5.2958 |      3.3238
+
+### matrixmult - Speedup
+Tamanho |  1 (serial) |   2 threads |   4 threads
+    500 |       1.000 |       1.875 |       2.169
+   1000 |       1.000 |       1.998 |       2.559
+   2000 |       1.000 |       1.669 |       2.660
+
+### matrixmult - Eficiencia
+Tamanho |  1 (serial) |   2 threads |   4 threads
+    500 |       1.000 |       0.937 |       0.542
+   1000 |       1.000 |       0.999 |       0.640
+   2000 |       1.000 |       0.835 |       0.665
+
+### selection - Tempo de execucao (s)
+Tamanho |  1 (serial) |   2 threads |   4 threads
+ 100000 |     11.4313 |      2.9165 |      2.0358
+ 200000 |     46.3637 |      9.7162 |      6.0114
+ 400000 |    185.4957 |     37.3203 |     21.9076
+
+### selection - Speedup
+Tamanho |  1 (serial) |   2 threads |   4 threads
+ 100000 |       1.000 |       3.919 |       5.615
+ 200000 |       1.000 |       4.772 |       7.713
+ 400000 |       1.000 |       4.970 |       8.467
+
+### selection - Eficiencia
+Tamanho |  1 (serial) |   2 threads |   4 threads
+ 100000 |       1.000 |       1.960 |       1.404
+ 200000 |       1.000 |       2.386 |       1.928
+ 400000 |       1.000 |       2.485 |       2.117
+
+### heapsort - Tempo de execucao (s)
+Tamanho |  1 (serial) |   2 threads |   4 threads
+ 100000 |      0.0083 |      0.0090 |      0.0090
+ 200000 |      0.0179 |      0.0200 |      0.0181
+8000000 |      3.0716 |      3.3768 |      3.4895
+
+### heapsort - Speedup
+Tamanho |  1 (serial) |   2 threads |   4 threads
+ 100000 |       1.000 |       0.925 |       0.918
+ 200000 |       1.000 |       0.897 |       0.991
+8000000 |       1.000 |       0.910 |       0.880
+
+### heapsort - Eficiencia
+Tamanho |  1 (serial) |   2 threads |   4 threads
+ 100000 |       1.000 |       0.462 |       0.230
+ 200000 |       1.000 |       0.449 |       0.248
+8000000 |       1.000 |       0.455 |       0.220
+
+### histograma - Tempo de execucao (s)
+Tamanho |  1 (serial) |   2 threads |   4 threads
+ 100000 |      0.0000 |      0.0001 |      0.0001
+ 200000 |      0.0001 |      0.0002 |      0.0002
+ 400000 |      0.0002 |      0.0002 |      0.0002
+
+### histograma - Speedup
+Tamanho |  1 (serial) |   2 threads |   4 threads
+ 100000 |       1.000 |       0.396 |       0.255
+ 200000 |       1.000 |       0.481 |       0.362
+ 400000 |       1.000 |       0.853 |       0.894
+
+### histograma - Eficiencia
+Tamanho |  1 (serial) |   2 threads |   4 threads
+ 100000 |       1.000 |       0.198 |       0.064
+ 200000 |       1.000 |       0.240 |       0.091
+ 400000 |       1.000 |       0.426 |       0.223
